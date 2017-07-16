@@ -1,0 +1,26 @@
+[
+  {
+    "TimeStamp":"2017-5-26 11:25",
+    "LogMarker":"admin",
+    "Logger":"c.a.acs.acs-aem-tools-bundle",
+    "LoginLevel":"INFO",
+    "CurrentThread":"qtq1395423247-193",
+    "LogMessage":"this is a logMessage"
+  },
+  {
+    "TimeStamp":"2017-5-26 11:25",
+    "LogMarker":"admin",
+    "Logger":"c.a.acs.acs-aem-tools-bundle",
+    "LoginLevel":"DEBUG",
+    "CurrentThread":"qtq1395423247-193",
+    "LogMessage":"this is a logMessage"
+  },
+  {
+    "TimeStamp":"2017-5-26 11:25",
+    "LogMarker":"admin",
+    "Logger":"c.a.acs.acs-aem-tools-bundle",
+    "LoginLevel":"WARN",
+    "CurrentThread":"qtq1395423247-193",
+    "LogMessage":"this is a logMessage"
+  }
+]

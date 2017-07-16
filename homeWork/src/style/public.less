@@ -1,0 +1,50 @@
+@primaryColor: #01c6d7;
+@whiteColor:white;
+@warningingColor:rgb(255, 1, 23);
+.mt30{
+  margin-top: 30px;
+}
+.borderRadius(@radius){
+  border-radius: @radius;
+}
+
+
+
+html,body{width: 100%;height: 100%;overflow-x: hidden}
+*{margin:0;padding: 0;font-size: 14px}
+li,a{list-style: none;text-decoration: none}
+.PB-bg{
+  background: @primaryColor;
+}
+.PB-color{
+  color:@primaryColor ;
+}
+.PB-waring{
+  color:@warningingColor
+}
+#app{
+
+  height: 100%;
+  width: 100%;
+}
+.PB-input{
+   .borderRadius(4px);
+   border:1px solid @primaryColor;
+   height: 30px;
+   width: 100%;
+   margin-top: 5px;
+   outline: none ;
+   text-indent: 5px;
+}
+.PB-btn{
+  width: 100px;
+  height:30px;
+  .mt30();
+  .borderRadius(4px);
+  border: none;
+  outline: none;
+  color:@primaryColor;
+}
+select{
+  border:1px solid @primaryColor;
+}
