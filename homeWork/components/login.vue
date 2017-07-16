@@ -6,12 +6,12 @@
                 <div class="formLine">
                     <label for="userId">User ID:</label>
                     <input type="text" id="userId" class="PB-input" v-model="userId" @focusin="focusUser"/>
-                    <p class="PB-waring" v-show="userIdReg">please enter the correct username,at least 6 bites</p>
+                    <p class="PB-waring" v-show="userIdReg">Please enter the correct username,at least 6 bites</p>
                 </div>
                 <div class="formLine">
                     <label for="passWord">Password:</label>
                     <input type="password" id="passWord" class="PB-input" v-model="password" @focusin="focusPsw"/>
-                    <p class="PB-waring" v-show="pswReg">please enter the correct password,at least 6 bites</p>
+                    <p class="PB-waring" v-show="pswReg">Please enter the correct password,at least 6 bites</p>
                 </div>
                 <button class="PB-btn"type="button" @click="login()"><span>Log In</span></button>
             </div>
