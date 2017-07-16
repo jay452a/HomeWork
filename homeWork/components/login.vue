@@ -60,7 +60,7 @@
                               sessionStorage.psw=psw
                            }
                            if(isLog===0){
-                               alert("false")
+                               alert("fail")
                            }
                        }
                    })
